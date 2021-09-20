@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 public class Button extends JButton  {
+    public String typeButton = "";
 
     private String defaultText = "0";
     private Font font = new Font("Century Gothic", 1, 18);
